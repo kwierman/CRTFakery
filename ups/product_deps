@@ -43,9 +43,9 @@ end_product_list
 # We now define allowed qualifiers and the corresponding qualifiers for the dependencies.
 # Make a table by adding columns before "notes". 
 qualifier	  lardataobj	artdaq            gallery    gcc	  notes
-e10:debug	  e10:debug	  debug:e10:eth:s44 e10:nu:debug -nq-
-e10:opt		  e10:opt		  opt:e10:eth:s44   e10:nu:opt   -nq-
-e10:prof		e10:prof		prof:e10:eth:s44  e10:nu:prof  -nq-
+e10:debug	  e10:debug	debug:e10:eth:s41 e10:nu:debug -nq-
+e10:opt		  e10:opt       opt:e10:eth:s41   e10:nu:opt   -nq-
+e10:prof	  e10:prof	prof:e10:eth:s41  e10:nu:prof  -nq-
 end_qualifier_list
 
 # Preserve tabs and formatting in emacs and vi / vim:
